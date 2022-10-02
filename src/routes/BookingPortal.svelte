@@ -48,7 +48,7 @@
 		<!-- Book Now Btn -->
 	</div>
 	<!-- White panel End -->
-	<div class="flex items-center space-x-[10px]">
+	<div class="flex items-center pl-[63.5px] space-x-[10px]">
 		<img src={lock} alt="Book now icon" />
 		<p class="text-[18px] text-gray-500">We Prioritize security and Privacy of Occupants.</p>
 	</div>
