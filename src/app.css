@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.cta-btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #2549d3;
+		color: white;
+		font-weight: 500;
+		padding: 8px 15px;
+		border-radius: 6px;
+		box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.04);
+        cursor: pointer;
+	}
+	.cta-btn:hover {
+		background: #2549d3;
+	}
+}
