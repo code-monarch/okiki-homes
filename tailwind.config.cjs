@@ -12,7 +12,9 @@ module.exports = {
 				bg: '#FAFAFA',
 				accentBase: '#002165',
 				semBlue: '#2549D3',
-				borderColor: "#C4C4C4"
+				borderColor: '#C4C4C4',
+				semGray: '#989898',
+				semDarkBlue: "#08195A"
 			},
 			boxShadow: {
 				custom: '0px 6px 15px rgba(0, 0, 0, 0.04)',

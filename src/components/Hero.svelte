@@ -3,11 +3,11 @@
 	import watchIcon from '$lib/images/watch-icon.svg';
 </script>
 
-<div class="flex justify-between items-center mt-[180px]">
+<div class="flex flex-col laptop:flex-row justify-between items-center mt-[180px]">
 	<!-- Hero Description -->
     <div>
-	<h2 class="hero-heading text-[81px] font-[700] mb-[21px] whitespace-nowrap">Comfort + <br /> Affordable Luxury</h2>
-	<p class="text-black text-[32px] mb-[42px]">
+	<h2 class="hero-heading text-center laptop:text-left text-[81px] font-[700] mb-[21px] whitespace-nowrap">Comfort + <br /> Affordable Luxury</h2>
+	<p class="text-black text-[32px] text-center laptop:text-left mb-[42px]">
 		Providing quality urban <br /> lifestyles, building stronger communities
 	</p>
 	<!-- CTA Buttons -->

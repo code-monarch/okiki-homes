@@ -19,7 +19,7 @@
 
 <div class="flex flex-col w-full">
 	<!-- Home picture and Details -->
-	<div class="flex items-start justify-between">
+	<div class="flex flex-col laptop:flex-row items-center laptop:items-start laptop:justify-center">
 		<!-- Home Picture -->
 		<img class="!mt-[-1px]" src={homeOne} alt="Home One" />
 		<!-- Description -->

@@ -1,7 +1,9 @@
 <script>
-	import Hero from './Hero.svelte';
-	import BookingPortal from './BookingPortal.svelte';
-    import WhyUs from './why-choose-us.svelte';
+	import Hero from '../components/Hero.svelte';
+	import BookingPortal from '../components/BookingPortal.svelte';
+    import WhyUs from '../components/why-choose-us.svelte';
+    import Featured from '../components/Featured.svelte';
+    import Gallery from '../components/Gallery.svelte';
 </script>
 
 <div class="w-full bg-inherit flex justify-center items-center">
@@ -9,5 +11,7 @@
 		<Hero />
         <BookingPortal /> 
         <WhyUs /> 
+        <Featured /> 
+        <Gallery /> 
 	</div>
 </div>
