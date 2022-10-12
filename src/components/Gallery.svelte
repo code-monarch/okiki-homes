@@ -4,7 +4,7 @@
 	import rightArrow from '$lib/images/rightArrow.svg';
 </script>
 
-<div class="!w-screen h-[840px] bg-semDarkBlue relative mb-[100px] flex flex-col justify-center items-center">
+<div class="w-screen h-[840px] bg-semDarkBlue relative mb-[100px] flex flex-col justify-center items-center">
     <!-- Absolute Text -->
     <h3 class="text-[rgba(255,_255,_255,_0.08)] absolute top-0 left-[100px] text-[160px] font-[600]">GALLERY</h3>
     <!-- Absolute Text End -->

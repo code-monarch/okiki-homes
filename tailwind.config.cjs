@@ -1,7 +1,10 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: [
+		'./src/**/*.{html,js,svelte,ts}',
+		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
+	],
 	theme: {
 		extend: {
 			fontFamily: {
@@ -14,7 +17,7 @@ module.exports = {
 				semBlue: '#2549D3',
 				borderColor: '#C4C4C4',
 				semGray: '#989898',
-				semDarkBlue: "#08195A"
+				semDarkBlue: '#08195A'
 			},
 			boxShadow: {
 				custom: '0px 6px 15px rgba(0, 0, 0, 0.04)',
@@ -53,5 +56,6 @@ module.exports = {
 			}
 		}
 	},
-	plugins: []
+	plugins: [require('flowbite/plugin')],
+	darkMode: 'class'
 };

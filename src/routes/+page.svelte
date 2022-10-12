@@ -4,6 +4,9 @@
     import WhyUs from '../components/why-choose-us.svelte';
     import Featured from '../components/Featured.svelte';
     import Gallery from '../components/Gallery.svelte';
+	import Faqs from '../components/Faqs.svelte';
+	import GetInTouchForm from '../components/GetInTouchForm.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <div class="w-full bg-inherit flex justify-center items-center">
@@ -13,5 +16,8 @@
         <WhyUs /> 
         <Featured /> 
         <Gallery /> 
+        <Faqs /> 
+        <GetInTouchForm /> 
+        <Footer /> 
 	</div>
 </div>
